@@ -1,2 +1,2 @@
 # Alzheimer-Research
-Building a CRNN in order to detect Alzheimer's Disease
+Building a deep learning model to classify Alzheimer's Disease using raw MRI images from the ADNI database. 
