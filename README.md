@@ -11,7 +11,9 @@ DICOM to JPEG conversion
 Reorganized dataset
 Focused on middle 4 slices per MRI scan using custom CNN to detect “butterfly” shape of Lateral Ventricles
 Applied gamma correction and adaptive thresholding
-🏗️ Model Architectures
+
+
+Model Architectures
 
 1. CRNN (Convolutional Recurrent Neural Network)
 CNN for spatial feature extraction
@@ -26,18 +28,24 @@ Accuracy: 81.7%
 Combined predictions from CRNN and InceptionV3
 Final Accuracy: 82%
 Evaluated using Precision, Recall, and F1-score
-🧪 Results
+
+
+Results
 
 Model	Accuracy	Parameters
 CRNN	75.0%	~2.5M
 InceptionV3	81.7%	~22M
-Ensemble	82.0%	-
+Ensemble	82.0%	
+
+
 📈 Future Directions
 
 Incorporate additional datasets (e.g., OASIS-1, OASIS-2)
 Use tools like Freesurfer for advanced brain segmentation
 Integrate genetic and proteomic biomarkers (e.g., APOE ε4, Tau, Beta-Amyloid)
 Analyze more than 4 slices per scan using 3D CNNs or attention mechanisms
+
+
 🙏 Acknowledgements
 
 This work was conducted under the mentorship of Dr. Juhao Wu at SLAC National Accelerator Laboratory. Huge thanks to the SLAC team and all collaborators who made this possible.
